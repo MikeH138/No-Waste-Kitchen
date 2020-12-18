@@ -1,3 +1,4 @@
+
 p.section-description {
   text-align: center;
   font-weight: 500;
@@ -63,5 +64,33 @@ textarea {
 }
 
 .ingredients{
-  border: 2px solid black;
+    border: 2px solid black;
+}
+
+.submit{
+    background: rgb(201, 195, 195);
+    padding: .25em;
+
+}
+
+li{
+  list-style: none;
+  font-weight: 600;
+}
+
+li:before {
+  content: "\f2e7"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+img {
+  max-width: 70%;
+}
+
+.meal-description {
+  border: 0.2rem solid black;
+  background-color: white;
 }
